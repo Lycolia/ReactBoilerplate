@@ -1,5 +1,6 @@
 {
   "name": "@lycolia/react-boilerplate",
+  "description": "my-react-boilerplate",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
