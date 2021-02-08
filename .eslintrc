@@ -23,8 +23,11 @@
     }
   },
   "rules": {
+    // Enforce shorthand or standard form for React fragments
     "react/jsx-fragments": ["warn", "syntax"],
+    // Prevent missing React when using JSX
     "react/react-in-jsx-scope": "off",
+    // Validate whitespace in and around the JSX opening and closing brackets
     "react/jsx-tag-spacing": [
       "warn",
       {
@@ -34,6 +37,7 @@
         "beforeClosing": "never"
       }
     ],
+    // Prevent extra closing tags for components without children
     "react/self-closing-comp": [
       "error",
       {
