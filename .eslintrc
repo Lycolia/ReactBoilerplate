@@ -15,6 +15,8 @@
     "project": "./tsconfig.json"
   },
   "rules": {
+    // Enforce shorthand or standard form for React fragments
+    "react/jsx-fragments": ["warn", "syntax"],
     // Prevent missing React when using JSX
     "react/react-in-jsx-scope": "off",
     // Validate spacing before closing bracket in JSX
