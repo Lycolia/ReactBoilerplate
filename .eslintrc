@@ -23,10 +23,6 @@
     }
   },
   "rules": {
-    // Checks rules of Hooks
-    "react-hooks/rules-of-hooks": "error",
-    // Checks effect dependencies
-    "react-hooks/exhaustive-deps": "warn",
     // Enforce shorthand or standard form for React fragments
     "react/jsx-fragments": ["warn", "syntax"],
     // Prevent missing React when using JSX
