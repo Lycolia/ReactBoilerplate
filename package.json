@@ -1,8 +1,11 @@
 {
   "name": "@lycolia/react-boilerplate",
-  "description": "my-react-boilerplate",
   "version": "0.1.0",
-  "private": true,
+  "description": "my react ts boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lycolia/ts-server-boilerplate"
+  },
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
