@@ -2,9 +2,17 @@
   "name": "@lycolia/react-boilerplate",
   "version": "0.1.0",
   "description": "my react ts boilerplate",
+  "author": "Lycolia",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Lycolia/ts-server-boilerplate"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "react": "^17.0.1",
@@ -31,12 +39,6 @@
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.1.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
