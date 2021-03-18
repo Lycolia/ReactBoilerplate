@@ -28,12 +28,12 @@
     // Enforce the consistent use of either function declarations or expressions
     "func-style": ["error", "expression", { "allowArrowFunctions": true }],
     // Enforce shorthand or standard form for React fragments
-    "react/jsx-fragments": ["warn", "syntax"],
+    "react/jsx-fragments": ["error", "syntax"],
     // Prevent missing React when using JSX
     "react/react-in-jsx-scope": "off",
     // Validate whitespace in and around the JSX opening and closing brackets
     "react/jsx-tag-spacing": [
-      "warn",
+      "error",
       {
         "closingSlash": "never",
         "beforeSelfClosing": "always",
@@ -57,12 +57,12 @@
     "@typescript-eslint/no-explicit-any": 1,
     // Disallows explicit type declarations for variables or parameters initialized to a number, string, or boolean
     "@typescript-eslint/no-inferrable-types": [
-      "warn",
+      "error",
       {
         "ignoreParameters": true
       }
     ],
     // Warn on declared but not used variable
-    "@typescript-eslint/no-unused-vars": "warn"
+    "@typescript-eslint/no-unused-vars": "error"
   }
 }
