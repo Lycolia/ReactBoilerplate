@@ -62,7 +62,7 @@
         "ignoreParameters": true
       }
     ],
-    // Warn on declared but not used variable
+    // Error on declared but not used variable
     "@typescript-eslint/no-unused-vars": "error"
   }
 }
