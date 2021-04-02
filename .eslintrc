@@ -24,16 +24,16 @@
   },
   "rules": {
     // Enforce the consistent use of either backticks, double, or single quotes
-    "quotes": ["error", "single"],
+    "quotes": ["warn", "single"],
     // Enforce the consistent use of either function declarations or expressions
-    "func-style": ["error", "expression", { "allowArrowFunctions": true }],
+    "func-style": ["warn", "expression", { "allowArrowFunctions": true }],
     // Enforce shorthand or standard form for React fragments
-    "react/jsx-fragments": ["error", "syntax"],
+    "react/jsx-fragments": ["warn", "syntax"],
     // Prevent missing React when using JSX
     "react/react-in-jsx-scope": "off",
     // Validate whitespace in and around the JSX opening and closing brackets
     "react/jsx-tag-spacing": [
-      "error",
+      "warn",
       {
         "closingSlash": "never",
         "beforeSelfClosing": "always",
@@ -43,7 +43,7 @@
     ],
     // Prevent extra closing tags for components without children
     "react/self-closing-comp": [
-      "error",
+      "warn",
       {
         "component": true,
         "html": true
