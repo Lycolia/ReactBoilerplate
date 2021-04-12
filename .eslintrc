@@ -29,7 +29,7 @@
     "func-style": ["warn", "expression", { "allowArrowFunctions": true }],
     // Detect missing key prop
     "react/jsx-key": [
-      "error",
+      "warn",
       { "checkFragmentShorthand": true, "checkKeyMustBeforeSpread": true }
     ],
     // Enforce shorthand or standard form for React fragments
