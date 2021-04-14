@@ -6,7 +6,6 @@
     "react-app",
     "react-app/jest",
     "plugin:react/recommended",
-    "plugin:prettier/recommended",
     "prettier",
     "prettier/@typescript-eslint"
   ],
