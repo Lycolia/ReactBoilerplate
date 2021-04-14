@@ -1,6 +1,6 @@
 {
   "name": "@lycolia/react-boilerplate",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "my react ts boilerplate",
   "author": "Lycolia",
   "license": "MIT",
@@ -12,6 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "coverage": "npm t -- --coverage --watchAll=false",
     "eject": "react-scripts eject"
   },
   "dependencies": {
