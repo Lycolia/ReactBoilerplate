@@ -1,6 +1,6 @@
 {
   "name": "@lycolia/react-boilerplate",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "my react ts boilerplate",
   "author": "Lycolia",
   "license": "MIT",
@@ -12,6 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint": "eslint --fix-dry-run && tsc --noEmit",
     "coverage": "npm t -- --coverage --watchAll=false",
     "eject": "react-scripts eject"
   },
