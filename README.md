@@ -29,15 +29,15 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## `npm run lint`
+### `npm run lint`
 
 Runs linter of ESLint and TSC, that will prevent bugs!
 
-## `npm run coverage`
+### `npm run coverage`
 
 Launches the test runner and display to coverage.\
 That find the test coverage rate.\
-Note that it is not very accurate, At least Hook and JSX coverage is incomplete.
+> Note: That it is not very accurate, At least Hook and JSX coverage is incomplete.
 
 ### `npm run eject`
 
