@@ -35,9 +35,10 @@ Runs linter of ESLint and TSC, that will prevent bugs!
 
 ### `npm run coverage`
 
+**Note: That it is not very accurate, At least Hook and JSX coverage is incomplete.**
+
 Launches the test runner and display to coverage.\
 That find the test coverage rate.
-> Note: That it is not very accurate, At least Hook and JSX coverage is incomplete.
 
 ### `npm run eject`
 
