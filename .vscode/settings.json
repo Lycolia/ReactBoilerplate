@@ -30,7 +30,7 @@
   },
   "typescript.suggest.paths": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.tsdk": "./node_modules/typescript/lib",
   "typescript.referencesCodeLens.enabled": true,
   "typescript.validate.enable": true,
   "typescript.preferences.importModuleSpecifier": "relative",
