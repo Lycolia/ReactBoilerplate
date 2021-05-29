@@ -1,5 +1,5 @@
 import { App } from '../App';
-import { NotFount } from '../pages/NotFound';
+import { NotFound } from '../pages/NotFound';
 
 /**
  * Application Routes
@@ -12,6 +12,6 @@ export const AppRoute = {
   },
   notfound: {
     path: '*',
-    component: NotFount,
+    component: NotFound,
   },
 };
