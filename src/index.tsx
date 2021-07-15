@@ -13,7 +13,7 @@ ReactDOM.render(
           return <Route key={route.path} {...route} />;
         })}
       </Switch>
-    </BrowserRouter>{' '}
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

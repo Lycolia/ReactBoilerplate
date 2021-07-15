@@ -1,7 +1,7 @@
 {
   "name": "@lycolia/react-boilerplate",
   "version": "0.7.3",
-  "description": "my react ts boilerplate",
+  "description": "React boilerplate for TypeScript",
   "author": "Lycolia",
   "license": "MIT",
   "repository": {
