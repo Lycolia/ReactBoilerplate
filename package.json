@@ -12,7 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "lint": "tsc --noEmit && eslint --fix-dry-run",
+    "type-check": "tsc --noEmit && eslint .",
     "coverage": "npm t -- --coverage --watchAll=false",
     "eject": "react-scripts eject"
   },
